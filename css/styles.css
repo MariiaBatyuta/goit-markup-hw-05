@@ -118,7 +118,7 @@ address {
 
 
 .what-we-do-portfolio-list {
-    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
     flex-basis: ((100% - 60px) / 3);
 }
 
@@ -196,7 +196,7 @@ body {
     letter-spacing: 00.02em;
     color: #2196F3;
     cursor: pointer;
-    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .active-studia::after,
@@ -210,7 +210,7 @@ body {
     height: 4px;
     background-color: #2196F3;
     border-radius: 2px;
-    bottom: -28px;
+    bottom: -40px;
     transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -355,7 +355,7 @@ body {
     line-height: 1.14;
     letter-spacing: 0.02em;
     color: #212121;
-    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .menu-link:hover,
@@ -370,7 +370,7 @@ body {
     line-height: 1.14;
     letter-spacing: 0.02em;
     color: #757575;
-    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 
@@ -441,7 +441,8 @@ body {
     padding-right: 22px;
     padding-bottom: 6px;
     padding-left: 22px;
-    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), 
+    border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .portfolio-buttons:hover,
@@ -533,7 +534,8 @@ body {
     border: 1px solid #AFB1B8;
     border-radius: 4px;
     fill: #AFB1B8;
-    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .client-list-item:hover,
@@ -553,7 +555,6 @@ body {
     position: relative;
     overflow: hidden;
 }
-
 
 
 .overlay {
@@ -665,7 +666,7 @@ body {
     height: 44px;
     border-radius: 50%;
     background-color: #FFFFFF;
-    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 
@@ -676,6 +677,7 @@ body {
 
 .social-list-icon {
     fill: #AFB1B8;
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .social-list-link:hover .social-list-icon,
@@ -691,12 +693,12 @@ body {
     height: 44px;
     border-radius: 50%;
     background-color: rgba(255, 255, 255, 0.1);
-    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .social-list-icon-footer {
     fill: #FFFFFF;
-    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 
@@ -772,7 +774,8 @@ body {
     background-color: transparent;
     border: 1px solid rgba(0, 0, 0, 0.1);
     padding: 0;
-    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-close-button:hover,
